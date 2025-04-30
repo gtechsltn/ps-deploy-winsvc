@@ -1,5 +1,9 @@
-# powershell deploy winsvc
+# PowerShell Deploy Windows Service
 
+# Deploy Windows Service
+```
+C:\Windows\System32\sc.exe create "ThirdSight Data Export Service 1" binPath= "D:\ThirdSight\ThirdSight.DataMigration1\TSDataExport.exe" DisplayName= "ThirdSight Data Export Service 1" start= auto obj= "MANH\ADMIN" password= "Abc@123$"
+```
 
 ## 1. Connection string
 
